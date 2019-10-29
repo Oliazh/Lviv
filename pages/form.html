@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>LVIV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+    <link href="img/icon2.png" rel="icon">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/form.css" />
+</head>
+
+<body>
+    <div id="fixed">
+        <header>
+            LVIV TUR
+        </header>
+        <nav>
+            <a href="main_Lviv.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+            <a href="form.html">Form</a>
+        </nav>
+        <div id="main_area">
+            <main>
+                <div id="start">
+                    <form action="main_Lviv.html" method="POST">
+    
+                    <h1> MAKE A RESERVATION</h1>
+                
+                    <div><label for="firstName">Firts Name</label><input type="text" name="Fname" id="firstName" />
+                        <label for="lastName">Last Name</label><input type="text" name="Lname" id="lastName" />
+                    </div><br>
+                    <div><label for="date">Select Date</label><input type="date" name="date" id="date" />
+                        <label for="email">E-mail</label><input type="email" name="email" id="email" />
+                    </div><br>
+                    <div><label for="phone">Contact Phone Number</label><input type="tel" name="phone" id="phone" /></div><br>
+                    <div><label for="adult">Number of Adults</label><input type="number" name="adult" min="0" id="adult" value="1"/>
+                        <label for="child">Number of Childer</label>
+                        <select id="child" name="child">
+                            <option value="infant">infant</option>
+                            <option value="2-18y">From 2-18years </option>
+                
+                        </select>
+                        <input type="number" name="adult" min="0" id="num">
+                    </div><br>
+                    <div class="sec"><textarea name="comments" id="comments">Comments</textarea></div><br>
+                    <div class="put">
+                        <input type="submit" value="Submit"id="submit">
+                        <input id="submit" type="reset" value="Clear">
+                    </div>
+                   
+                </div>
+            </form>
+        </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </main>
+        <aside>
+            <div class="inside">
+                <ul>
+                    <li><a href="#" class="insideA"> Lviv+Carpatian Mountains</a> </li>
+                    <li><a href="#" class="insideA">Lviv Secrets</a></li>
+                    <li><a href="#" class="insideA">Transcarpathian Princess</a></li>
+                </ul>
+            </div>
+            <div class="lviv"><img src="img/Lviv.png" width="180" height="220"></div>
+
+        </aside>
+    </div>
+    <footer>
+        <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="1300" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=lviv%20ukraine&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net"></a></div>
+            <style>
+                .mapouter {
+                    text-align: right;
+                    height: 200px;
+                    width: 800px;
+                }
+
+                .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    height: 200px;
+                    width: 1300px;
+                }
+            </style>LVIV TUR
+        </div>
+    </footer>
+    </div>
+
+
+</body>
+
+</html>

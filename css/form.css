@@ -1,0 +1,127 @@
+
+h1{
+    text-align: center;
+    
+}
+label {
+    color: rgb(8, 90, 8);
+    font-size: 30px;
+    display: inline-block;
+    width: 200px;
+    padding: 0px 15px 15px 15px ;
+    z-index: -1;
+}
+
+input {
+    width: 200px;
+    height: 25px;
+    font-size: 20px;
+    background-color: #e6f2ff;
+}
+
+#child {
+    width: 100px;
+    height: 30px;
+
+}
+
+#num {
+    width: 40px;
+    height: 23px;
+    position: absolute;
+    left: 370px;
+    top: 513px;
+}
+
+select {
+    font-size: 20px;
+}
+
+
+
+#message {
+    width: 398px;
+    height: 100px;
+    background-color: #e6f2ff;
+    overflow: hidden;
+}
+#start{
+    position: relative;
+    background-image: url('../img/forForms.jpg');
+    opacity: 0.85;
+    width:550px;
+   border-radius: 15px;
+     
+    
+}
+#start2{
+    position: relative;
+    background-color: azure;
+    opacity: 0.85;
+    width:500px;
+   border-radius: 15px;
+     
+    
+}
+#start2:hover{
+    opacity: 1;
+}
+#submit{
+    width: 80px;
+    height:30px;
+    background-color: #66ccff;
+    
+  
+    
+    
+}
+#send{
+    width: 80px;
+    height:30px;
+    background-color: #66ccff;
+    margin: 10px 400px;
+    border: 3px solid gray;
+    border-radius: 3px;
+        
+}
+#send:hover{
+    background-color: green;
+
+}
+.sec{
+    padding: 30px;
+}
+.put{
+    padding: 5px 20px 30px 350px;
+}
+section>* {
+    width: 50%;
+    display: inline-block;
+    font-size: initial;
+    box-sizing: border-box;
+    vertical-align: top;
+    text-align: justify;
+    padding: 20px;
+    
+}
+@media screen and (max-width: 800px) {
+    
+    section>* {
+        width: 100%;
+        
+    }
+    .perenos{
+        text-align: left;
+    }
+}
+.perenos{
+
+    padding:0px 0px 0px 200px ;
+}
+#sto>div>label{
+    text-align: justify;
+    color:wheat;
+    }
+    #sto>div{
+        color:orangered;
+    }
